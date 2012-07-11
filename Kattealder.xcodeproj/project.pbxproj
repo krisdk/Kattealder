@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6903B7615AD979E007ACEFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B7515AD979E007ACEFC /* UIKit.framework */; };
+		F6903B7815AD979E007ACEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B7715AD979E007ACEFC /* Foundation.framework */; };
+		F6903B7A15AD979E007ACEFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B7915AD979E007ACEFC /* CoreGraphics.framework */; };
+		F6903B8015AD979E007ACEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6903B7E15AD979E007ACEFC /* InfoPlist.strings */; };
+		F6903B8215AD979E007ACEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6903B8115AD979E007ACEFC /* main.m */; };
+		F6903B8615AD979E007ACEFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6903B8515AD979E007ACEFC /* AppDelegate.m */; };
+		F6903B8915AD979E007ACEFC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6903B8715AD979E007ACEFC /* MainStoryboard.storyboard */; };
+		F6903B8C15AD979E007ACEFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6903B8B15AD979E007ACEFC /* ViewController.m */; };
+		F6903B9415AD979E007ACEFC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B9315AD979E007ACEFC /* SenTestingKit.framework */; };
+		F6903B9515AD979E007ACEFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B7515AD979E007ACEFC /* UIKit.framework */; };
+		F6903B9615AD979E007ACEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B7715AD979E007ACEFC /* Foundation.framework */; };
+		F6903B9E15AD979E007ACEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6903B9C15AD979E007ACEFC /* InfoPlist.strings */; };
+		F6903BA115AD979E007ACEFC /* KattealderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6903BA015AD979E007ACEFC /* KattealderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6903B9715AD979E007ACEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6903B6815AD9799007ACEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6903B7015AD979E007ACEFC;
+			remoteInfo = Kattealder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6903B7115AD979E007ACEFC /* Kattealder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kattealder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6903B7515AD979E007ACEFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6903B7715AD979E007ACEFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6903B7915AD979E007ACEFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6903B7D15AD979E007ACEFC /* Kattealder-Info.plist */ = {isa = PBXFileReference; path = "Kattealder-Info.plist"; sourceTree = "<group>"; };
+		F6903B7F15AD979E007ACEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6903B8115AD979E007ACEFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6903B8315AD979E007ACEFC /* Kattealder-Prefix.pch */ = {isa = PBXFileReference; path = "Kattealder-Prefix.pch"; sourceTree = "<group>"; };
+		F6903B8415AD979E007ACEFC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6903B8515AD979E007ACEFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6903B8815AD979E007ACEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6903B8A15AD979E007ACEFC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F6903B8B15AD979E007ACEFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6903B9215AD979E007ACEFC /* KattealderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KattealderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6903B9315AD979E007ACEFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6903B9B15AD979E007ACEFC /* KattealderTests-Info.plist */ = {isa = PBXFileReference; path = "KattealderTests-Info.plist"; sourceTree = "<group>"; };
+		F6903B9D15AD979E007ACEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6903B9F15AD979E007ACEFC /* KattealderTests.h */ = {isa = PBXFileReference; path = KattealderTests.h; sourceTree = "<group>"; };
+		F6903BA015AD979E007ACEFC /* KattealderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KattealderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6903B6E15AD979E007ACEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6903B7615AD979E007ACEFC /* UIKit.framework in Frameworks */,
+				F6903B7815AD979E007ACEFC /* Foundation.framework in Frameworks */,
+				F6903B7A15AD979E007ACEFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6903B8E15AD979E007ACEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6903B9415AD979E007ACEFC /* SenTestingKit.framework in Frameworks */,
+				F6903B9515AD979E007ACEFC /* UIKit.framework in Frameworks */,
+				F6903B9615AD979E007ACEFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6903B6615AD9799007ACEFC = {
+			isa = PBXGroup;
+			children = (
+				F6903B7B15AD979E007ACEFC /* Kattealder */,
+				F6903B9915AD979E007ACEFC /* KattealderTests */,
+				F6903B7415AD979E007ACEFC /* Frameworks */,
+				F6903B7215AD979E007ACEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6903B7215AD979E007ACEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6903B7115AD979E007ACEFC /* Kattealder.app */,
+				F6903B9215AD979E007ACEFC /* KattealderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6903B7415AD979E007ACEFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6903B7515AD979E007ACEFC /* UIKit.framework */,
+				F6903B7715AD979E007ACEFC /* Foundation.framework */,
+				F6903B7915AD979E007ACEFC /* CoreGraphics.framework */,
+				F6903B9315AD979E007ACEFC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6903B7B15AD979E007ACEFC /* Kattealder */ = {
+			isa = PBXGroup;
+			children = (
+				F6903B8415AD979E007ACEFC /* AppDelegate.h */,
+				F6903B8515AD979E007ACEFC /* AppDelegate.m */,
+				F6903B8715AD979E007ACEFC /* MainStoryboard.storyboard */,
+				F6903B8A15AD979E007ACEFC /* ViewController.h */,
+				F6903B8B15AD979E007ACEFC /* ViewController.m */,
+				F6903B7C15AD979E007ACEFC /* Supporting Files */,
+			);
+			path = Kattealder;
+			sourceTree = "<group>";
+		};
+		F6903B7C15AD979E007ACEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6903B7D15AD979E007ACEFC /* Kattealder-Info.plist */,
+				F6903B7E15AD979E007ACEFC /* InfoPlist.strings */,
+				F6903B8115AD979E007ACEFC /* main.m */,
+				F6903B8315AD979E007ACEFC /* Kattealder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6903B9915AD979E007ACEFC /* KattealderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6903B9F15AD979E007ACEFC /* KattealderTests.h */,
+				F6903BA015AD979E007ACEFC /* KattealderTests.m */,
+				F6903B9A15AD979E007ACEFC /* Supporting Files */,
+			);
+			path = KattealderTests;
+			sourceTree = "<group>";
+		};
+		F6903B9A15AD979E007ACEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6903B9B15AD979E007ACEFC /* KattealderTests-Info.plist */,
+				F6903B9C15AD979E007ACEFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6903B7015AD979E007ACEFC /* Kattealder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6903BA415AD979E007ACEFC /* Build configuration list for PBXNativeTarget "Kattealder" */;
+			buildPhases = (
+				F6903B6D15AD979E007ACEFC /* Sources */,
+				F6903B6E15AD979E007ACEFC /* Frameworks */,
+				F6903B6F15AD979E007ACEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kattealder;
+			productName = Kattealder;
+			productReference = F6903B7115AD979E007ACEFC /* Kattealder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6903B9115AD979E007ACEFC /* KattealderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6903BA715AD979E007ACEFC /* Build configuration list for PBXNativeTarget "KattealderTests" */;
+			buildPhases = (
+				F6903B8D15AD979E007ACEFC /* Sources */,
+				F6903B8E15AD979E007ACEFC /* Frameworks */,
+				F6903B8F15AD979E007ACEFC /* Resources */,
+				F6903B9015AD979E007ACEFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6903B9815AD979E007ACEFC /* PBXTargetDependency */,
+			);
+			name = KattealderTests;
+			productName = KattealderTests;
+			productReference = F6903B9215AD979E007ACEFC /* KattealderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6903B6815AD9799007ACEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F6903B6B15AD9799007ACEFC /* Build configuration list for PBXProject "Kattealder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6903B6615AD9799007ACEFC;
+			productRefGroup = F6903B7215AD979E007ACEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6903B7015AD979E007ACEFC /* Kattealder */,
+				F6903B9115AD979E007ACEFC /* KattealderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6903B6F15AD979E007ACEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6903B8015AD979E007ACEFC /* InfoPlist.strings in Resources */,
+				F6903B8915AD979E007ACEFC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6903B8F15AD979E007ACEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6903B9E15AD979E007ACEFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6903B9015AD979E007ACEFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6903B6D15AD979E007ACEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6903B8215AD979E007ACEFC /* main.m in Sources */,
+				F6903B8615AD979E007ACEFC /* AppDelegate.m in Sources */,
+				F6903B8C15AD979E007ACEFC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6903B8D15AD979E007ACEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6903BA115AD979E007ACEFC /* KattealderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6903B9815AD979E007ACEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6903B7015AD979E007ACEFC /* Kattealder */;
+			targetProxy = F6903B9715AD979E007ACEFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6903B7E15AD979E007ACEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6903B7F15AD979E007ACEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6903B8715AD979E007ACEFC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6903B8815AD979E007ACEFC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F6903B9C15AD979E007ACEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6903B9D15AD979E007ACEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6903BA215AD979E007ACEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6903BA315AD979E007ACEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6903BA515AD979E007ACEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kattealder/Kattealder-Prefix.pch";
+				INFOPLIST_FILE = "Kattealder/Kattealder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6903BA615AD979E007ACEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kattealder/Kattealder-Prefix.pch";
+				INFOPLIST_FILE = "Kattealder/Kattealder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6903BA815AD979E007ACEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kattealder.app/Kattealder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kattealder/Kattealder-Prefix.pch";
+				INFOPLIST_FILE = "KattealderTests/KattealderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F6903BA915AD979E007ACEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kattealder.app/Kattealder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kattealder/Kattealder-Prefix.pch";
+				INFOPLIST_FILE = "KattealderTests/KattealderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6903B6B15AD9799007ACEFC /* Build configuration list for PBXProject "Kattealder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6903BA215AD979E007ACEFC /* Debug */,
+				F6903BA315AD979E007ACEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6903BA415AD979E007ACEFC /* Build configuration list for PBXNativeTarget "Kattealder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6903BA515AD979E007ACEFC /* Debug */,
+				F6903BA615AD979E007ACEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6903BA715AD979E007ACEFC /* Build configuration list for PBXNativeTarget "KattealderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6903BA815AD979E007ACEFC /* Debug */,
+				F6903BA915AD979E007ACEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6903B6815AD9799007ACEFC /* Project object */;
+}
