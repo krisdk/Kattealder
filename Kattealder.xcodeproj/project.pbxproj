@@ -20,6 +20,21 @@
 		F6903B9615AD979E007ACEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6903B7715AD979E007ACEFC /* Foundation.framework */; };
 		F6903B9E15AD979E007ACEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6903B9C15AD979E007ACEFC /* InfoPlist.strings */; };
 		F6903BA115AD979E007ACEFC /* KattealderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6903BA015AD979E007ACEFC /* KattealderTests.m */; };
+		F6903BAB15AD9956007ACEFC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BAA15AD9956007ACEFC /* Default.png */; };
+		F6903BAD15AD995B007ACEFC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BAC15AD995B007ACEFC /* Default@2x.png */; };
+		F6903BAF15AD9962007ACEFC /* Pippi57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BAE15AD9962007ACEFC /* Pippi57x57.png */; };
+		F6903BB115AD9965007ACEFC /* Pippi114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BB015AD9965007ACEFC /* Pippi114x114.png */; };
+		F6903BD215AD9BD9007ACEFC /* cat_5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BC915AD9BD9007ACEFC /* cat_5_2.png */; };
+		F6903BD315AD9BD9007ACEFC /* cat_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BCA15AD9BD9007ACEFC /* cat_5.png */; };
+		F6903BD415AD9BD9007ACEFC /* cat_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BCB15AD9BD9007ACEFC /* cat_5@2x.png */; };
+		F6903BD515AD9BD9007ACEFC /* cat_6_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BCC15AD9BD9007ACEFC /* cat_6_2.png */; };
+		F6903BD615AD9BD9007ACEFC /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BCD15AD9BD9007ACEFC /* cat.png */; };
+		F6903BD715AD9BD9007ACEFC /* cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BCE15AD9BD9007ACEFC /* cat@2x.png */; };
+		F6903BD815AD9BD9007ACEFC /* cat24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BCF15AD9BD9007ACEFC /* cat24x24.png */; };
+		F6903BD915AD9BD9007ACEFC /* Pippi57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BD015AD9BD9007ACEFC /* Pippi57x57.png */; };
+		F6903BDA15AD9BD9007ACEFC /* Pippi114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BD115AD9BD9007ACEFC /* Pippi114x114.png */; };
+		F6903BDD15AD9BF1007ACEFC /* Pippi.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BDB15AD9BF1007ACEFC /* Pippi.png */; };
+		F6903BDE15AD9BF1007ACEFC /* Pippi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6903BDC15AD9BF1007ACEFC /* Pippi@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +52,36 @@
 		F6903B7515AD979E007ACEFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6903B7715AD979E007ACEFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6903B7915AD979E007ACEFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F6903B7D15AD979E007ACEFC /* Kattealder-Info.plist */ = {isa = PBXFileReference; path = "Kattealder-Info.plist"; sourceTree = "<group>"; };
+		F6903B7D15AD979E007ACEFC /* Kattealder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kattealder-Info.plist"; sourceTree = "<group>"; };
 		F6903B7F15AD979E007ACEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6903B8115AD979E007ACEFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6903B8315AD979E007ACEFC /* Kattealder-Prefix.pch */ = {isa = PBXFileReference; path = "Kattealder-Prefix.pch"; sourceTree = "<group>"; };
-		F6903B8415AD979E007ACEFC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6903B8315AD979E007ACEFC /* Kattealder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kattealder-Prefix.pch"; sourceTree = "<group>"; };
+		F6903B8415AD979E007ACEFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6903B8515AD979E007ACEFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F6903B8815AD979E007ACEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F6903B8A15AD979E007ACEFC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F6903B8A15AD979E007ACEFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F6903B8B15AD979E007ACEFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6903B9215AD979E007ACEFC /* KattealderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KattealderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6903B9315AD979E007ACEFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F6903B9B15AD979E007ACEFC /* KattealderTests-Info.plist */ = {isa = PBXFileReference; path = "KattealderTests-Info.plist"; sourceTree = "<group>"; };
+		F6903B9B15AD979E007ACEFC /* KattealderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KattealderTests-Info.plist"; sourceTree = "<group>"; };
 		F6903B9D15AD979E007ACEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F6903B9F15AD979E007ACEFC /* KattealderTests.h */ = {isa = PBXFileReference; path = KattealderTests.h; sourceTree = "<group>"; };
+		F6903B9F15AD979E007ACEFC /* KattealderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KattealderTests.h; sourceTree = "<group>"; };
 		F6903BA015AD979E007ACEFC /* KattealderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KattealderTests.m; sourceTree = "<group>"; };
+		F6903BAA15AD9956007ACEFC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6903BAC15AD995B007ACEFC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6903BAE15AD9962007ACEFC /* Pippi57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pippi57x57.png; sourceTree = "<group>"; };
+		F6903BB015AD9965007ACEFC /* Pippi114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pippi114x114.png; sourceTree = "<group>"; };
+		F6903BC915AD9BD9007ACEFC /* cat_5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_5_2.png; sourceTree = "<group>"; };
+		F6903BCA15AD9BD9007ACEFC /* cat_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_5.png; sourceTree = "<group>"; };
+		F6903BCB15AD9BD9007ACEFC /* cat_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_5@2x.png"; sourceTree = "<group>"; };
+		F6903BCC15AD9BD9007ACEFC /* cat_6_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_6_2.png; sourceTree = "<group>"; };
+		F6903BCD15AD9BD9007ACEFC /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		F6903BCE15AD9BD9007ACEFC /* cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat@2x.png"; sourceTree = "<group>"; };
+		F6903BCF15AD9BD9007ACEFC /* cat24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat24x24.png; sourceTree = "<group>"; };
+		F6903BD015AD9BD9007ACEFC /* Pippi57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pippi57x57.png; sourceTree = "<group>"; };
+		F6903BD115AD9BD9007ACEFC /* Pippi114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pippi114x114.png; sourceTree = "<group>"; };
+		F6903BDB15AD9BF1007ACEFC /* Pippi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pippi.png; sourceTree = "<group>"; };
+		F6903BDC15AD9BF1007ACEFC /* Pippi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pippi@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,10 @@
 		F6903B6615AD9799007ACEFC = {
 			isa = PBXGroup;
 			children = (
+				F6903BB015AD9965007ACEFC /* Pippi114x114.png */,
+				F6903BAE15AD9962007ACEFC /* Pippi57x57.png */,
+				F6903BAC15AD995B007ACEFC /* Default@2x.png */,
+				F6903BAA15AD9956007ACEFC /* Default.png */,
 				F6903B7B15AD979E007ACEFC /* Kattealder */,
 				F6903B9915AD979E007ACEFC /* KattealderTests */,
 				F6903B7415AD979E007ACEFC /* Frameworks */,
@@ -111,6 +145,7 @@
 		F6903B7B15AD979E007ACEFC /* Kattealder */ = {
 			isa = PBXGroup;
 			children = (
+				F6903BB215AD9A27007ACEFC /* Grafik */,
 				F6903B8415AD979E007ACEFC /* AppDelegate.h */,
 				F6903B8515AD979E007ACEFC /* AppDelegate.m */,
 				F6903B8715AD979E007ACEFC /* MainStoryboard.storyboard */,
@@ -149,6 +184,24 @@
 				F6903B9C15AD979E007ACEFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6903BB215AD9A27007ACEFC /* Grafik */ = {
+			isa = PBXGroup;
+			children = (
+				F6903BDB15AD9BF1007ACEFC /* Pippi.png */,
+				F6903BDC15AD9BF1007ACEFC /* Pippi@2x.png */,
+				F6903BC915AD9BD9007ACEFC /* cat_5_2.png */,
+				F6903BCA15AD9BD9007ACEFC /* cat_5.png */,
+				F6903BCB15AD9BD9007ACEFC /* cat_5@2x.png */,
+				F6903BCC15AD9BD9007ACEFC /* cat_6_2.png */,
+				F6903BCD15AD9BD9007ACEFC /* cat.png */,
+				F6903BCE15AD9BD9007ACEFC /* cat@2x.png */,
+				F6903BCF15AD9BD9007ACEFC /* cat24x24.png */,
+				F6903BD015AD9BD9007ACEFC /* Pippi57x57.png */,
+				F6903BD115AD9BD9007ACEFC /* Pippi114x114.png */,
+			);
+			name = Grafik;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +276,21 @@
 			files = (
 				F6903B8015AD979E007ACEFC /* InfoPlist.strings in Resources */,
 				F6903B8915AD979E007ACEFC /* MainStoryboard.storyboard in Resources */,
+				F6903BAB15AD9956007ACEFC /* Default.png in Resources */,
+				F6903BAD15AD995B007ACEFC /* Default@2x.png in Resources */,
+				F6903BAF15AD9962007ACEFC /* Pippi57x57.png in Resources */,
+				F6903BB115AD9965007ACEFC /* Pippi114x114.png in Resources */,
+				F6903BD215AD9BD9007ACEFC /* cat_5_2.png in Resources */,
+				F6903BD315AD9BD9007ACEFC /* cat_5.png in Resources */,
+				F6903BD415AD9BD9007ACEFC /* cat_5@2x.png in Resources */,
+				F6903BD515AD9BD9007ACEFC /* cat_6_2.png in Resources */,
+				F6903BD615AD9BD9007ACEFC /* cat.png in Resources */,
+				F6903BD715AD9BD9007ACEFC /* cat@2x.png in Resources */,
+				F6903BD815AD9BD9007ACEFC /* cat24x24.png in Resources */,
+				F6903BD915AD9BD9007ACEFC /* Pippi57x57.png in Resources */,
+				F6903BDA15AD9BD9007ACEFC /* Pippi114x114.png in Resources */,
+				F6903BDD15AD9BF1007ACEFC /* Pippi.png in Resources */,
+				F6903BDE15AD9BF1007ACEFC /* Pippi@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
